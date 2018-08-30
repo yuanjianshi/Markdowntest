@@ -26,17 +26,17 @@ Please use the following table to locate the installer for the version of PowerS
 
 Please download and install Windows Management Framework on Microsoft website according to your OS:
 
-    https://docs.microsoft.com/en-us/powershell/scripting/setup/installing-windows-powershell?view=powershell-6
+https://docs.microsoft.com/en-us/powershell/scripting/setup/installing-windows-powershell?view=powershell-6
 
 ## Usage
 
 A set of PowerShell examples is provided under the examples directory of this project. 
 
-For help message, please use:
+For help message, please use Get-help command, here is an example of get_power_state:
 
 ```
-Import-Module .\example_module_name.psm1
-Get-help example_module_name
+Import-Module ./ lenovo_get_power_state.psm1
+Get-help lenovo_get_power_state
 ```
 
 ### Using the PowerShell examples to get and set values
@@ -68,7 +68,7 @@ lenovo_set_power_state –reset_type ForceOff
 
 ## History
 
-* 08/16/2018 : Initial version
+* 08/30/2018 : Initial version
 
 ## Copyright and License
 
